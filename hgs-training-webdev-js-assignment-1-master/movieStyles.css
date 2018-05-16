@@ -1,0 +1,17 @@
+
+.three-cols {
+  column-count: 3;
+  column-gap: normal;
+}
+
+.movie-text
+{
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #444;
+  color: black;
+}
+
+.three-cols > * {
+  break-inside: avoid;
+}
