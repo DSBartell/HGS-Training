@@ -10,6 +10,13 @@
   border-style: solid;
   border-color: #444;
   color: black;
+  display: table;
+  width: 100%;
+}
+
+.link-button a
+{
+  color:white;
 }
 
 .three-cols > * {

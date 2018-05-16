@@ -33,8 +33,8 @@ function init()
         output += '<div class="movie-text p-2 m-2 text-center">'+
         '<p>'+movies[i].title+'</p>'+
         '<p>'+movies[i].description+'</p>'+
-        '<a href="'+movies[i].weblink+'"></a>'+
         '<p>Movie ID: '+movies[i].id+'</p>'+
+        '<button class="btn btn-info link-button"><a href="'+movies[i].webLink+'">Learn More!</a></button>'+
         '</div>'
       }
       document.getElementById('movieView').innerHTML = output;
